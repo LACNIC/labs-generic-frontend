@@ -11,7 +11,7 @@
     <meta name="description"
           content="Midiendo la interconexión entre redes de América Latina y Caribe a través de mediciones de latencia."/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>{% block pagetitle %}{% endblock pagetitle %} - LACNIC Stats</title>
+    <title>{{ page.title }} - {{ site.title }}</title>
 
     <!-- Google Fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:100">
@@ -40,20 +40,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
     <style>
-   .nav>div{
-     width: 50%;
-     margin: 0 auto;
-   }
 
     .nav>li>a{
       color:#4c4c4e;
       background-color: transparent;
       text-shadow: 0 0;
-      color: #E8ECEF;
+      color: #C5C9CC;
       font-family: 'foundrymonolinebold';
     }
     .nav>li>a:hover{
-      color:#F7FBFF;
+      color:#FFFFFF;
       background-color: transparent;
     }
     </style>
@@ -92,11 +88,14 @@
 <!-- Segunda barra -->
 <div class="navbar visible-sm visible-md visible-lg visible-xl"
      style="background-color: #4c4c4e; border-radius: 0; margin: 0 auto; padding-right: 1em;">
+
+     <div style="width: 50%; margin: 0 auto;">
      <ul class="nav navbar-nav">
-       <li><a href="#">Portal IPv6</a></li>
-       <li><a href="#">Home de LACNIC</a></li>
-       <li><a href="#">Blog LACNIC Labs</a></li>
+       <li><a href="http://portalipv6.lacnic.net">Portal IPv6</a></li>
+       <li><a href="http://lacnic.net">Home de LACNIC</a></li>
+       <li><a href="http://labs.lacnic.net">Blog LACNIC Labs</a></li>
      </ul>
+   </div>
 </div>
 
 <!-- Fondo -->
