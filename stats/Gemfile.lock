@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kramdown (1.10.0)
+    liquid-inheritance (0.1.1)
+    rouge (1.10.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kramdown
+  liquid-inheritance
+  rouge
+
+BUNDLED WITH
+   1.12.5
