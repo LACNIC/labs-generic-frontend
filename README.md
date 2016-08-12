@@ -1,2 +1,6 @@
-# v6-stats-frontend
-Frontend for all IPv6-related stats as seen by @lacniclabs. This frontend is a simple webpage that uses the LACNIC Stats' backend API.
+# LACNIC Labs Generic Frontend
+
+This is a small Jekyll based site generator used for generating small sites quickly, neatly, and according to LACNIC styles standards.
+
+## Usage
+(soon)
