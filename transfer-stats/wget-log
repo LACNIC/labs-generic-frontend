@@ -1,0 +1,16 @@
+--2016-08-12 15:07:29--  http://transfer-stats.labs.lacnic.net/Elisa-datos-abiertos/ipv4.html
+Resolving transfer-stats.labs.lacnic.net... 179.0.156.124, 2001:13c7:7001:500::124
+Connecting to transfer-stats.labs.lacnic.net|179.0.156.124|:80... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2016-08-12 15:23:17--  (try: 2)  http://transfer-stats.labs.lacnic.net/Elisa-datos-abiertos/ipv4.html
+Connecting to transfer-stats.labs.lacnic.net|179.0.156.124|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4498 (4.4K) [text/html]
+Saving to: `ipv4.html.1'
+
+     0K ....                                                  100% 5.67K=0.8s
+
+2016-08-12 15:23:19 (5.67 KB/s) - `ipv4.html.1' saved [4498/4498]
+
