@@ -1,0 +1,23 @@
+#barra-primaria {
+    background-color: #000000;
+}
+
+#barra-secundaria {
+    background-color: #4C4C4E;
+}
+
+.jumbotron {
+	background-color: #F9F9F9;
+}
+
+#fondo {
+	background-color: #EDEDED;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
+#highlight {
+	color="yellow"
+}

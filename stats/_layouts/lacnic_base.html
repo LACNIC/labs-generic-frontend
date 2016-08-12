@@ -9,18 +9,17 @@
     <meta name="google-site-verification" content="lIBJB024gcZVoXDBZuktqXPxgNYhFHTNC--30FLOa_8"/>
 
     <meta name="description"
-          content="Midiendo la interconexión entre redes de América Latina y Caribe a través de mediciones de latencia."/>
+          content=""/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{{ page.title }} - {{ site.title }}</title>
-
-    <!-- Google Fonts -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:100">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <!-- LACNIC Styles -->
     <link rel="stylesheet" type="text/css" href="css/lacniclabs-portales-negro.css">
+    <link rel="stylesheet" type="text/css" href="css/lacniclabs-override.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/lacniclabs-portales-negro.css"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,10 +55,10 @@
 
 </head>
 <!-- Fondo -->
-<body style="background-color: #E8ECEF">
+<body>
 
-<!-- Barra anaranjada -->
-<div class="navbar" style="background-color: #000000; border-radius: 0; margin: 0">
+<!-- Barra Primaria -->
+<div id="barra-primaria" class="navbar">
 
     <a href="https://www.labs.lacnic.net" title="LACNIC labs" class="pull-left">
         <img src="imgs/logo_labs.png" border="0" class="hidden-xs"
@@ -73,8 +72,8 @@
 
     </div> -->
 
-    <a class="navbar-brand pull-right" href="">
-        <h2 style="color: #ffffff; font-family: 'HelveticaNeue-Light'">
+    <a id="titulo-primario" class="navbar-brand pull-right" href="">
+        <h2>
                 <span class="hidden-xs">
                     LACNIC Stats
                 </span>
@@ -85,9 +84,8 @@
     </a>
 </div>
 
-<!-- Segunda barra -->
-<div class="navbar visible-sm visible-md visible-lg visible-xl"
-     style="background-color: #4c4c4e; border-radius: 0; margin: 0 auto; padding-right: 1em;">
+<!-- Barra Secundaria -->
+<div id="barra-secundaria" class="navbar visible-sm visible-md visible-lg visible-xl">
 
      <div style="width: 50%; margin: 0 auto;">
      <ul class="nav navbar-nav">
@@ -99,7 +97,7 @@
 </div>
 
 <!-- Fondo -->
-<div class="container" style="background-color: #E8ECEF;">
+<div class="container">
     <div class="header clearfix">
                 <!-- Nada -->
     </div>
@@ -107,7 +105,7 @@
 
     <!-- Header -->
 
-    <div class="row marketing">
+    <div id="fondo" class="row marketing">
         <!-- Content -->
         {{ content }}
     </div>
