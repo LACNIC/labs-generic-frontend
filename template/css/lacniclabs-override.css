@@ -1,0 +1,13 @@
+h1 { /* cambia en base a #barra-secundaria */
+    color: #70C1B3;
+}
+#barra-secundaria {
+    background-color: #70C1B3;
+}
+.nav {
+  color: yellow;
+}
+
+#highlight {
+	color: #FF1654;
+}
